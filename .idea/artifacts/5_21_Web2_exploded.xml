@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="5.21:Web2 exploded">
+    <output-path>$PROJECT_DIR$/src/main/webapp</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="5.21/web/Web2" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="5.21" />
+          <element id="module-output" name="student-management" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="5.21/web/Web" />
+      <element id="javaee-facet-resources" facet="student-management/web/Web" />
+    </root>
+  </artifact>
+</component>
